@@ -92,3 +92,9 @@ print('2 1 2 4 8')
 print('3 1 3 9 27')
 print('4 1 4 16 64')
 print('5 1 5 25 125')
+
+print('Answer :')
+for x in range(1, 6):
+    print(x, x ** 0, x ** 1, x ** 2, x ** 3)
+# First column print current index
+# For the rest of column is exponentiation of that index
